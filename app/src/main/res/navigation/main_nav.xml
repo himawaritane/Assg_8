@@ -22,6 +22,7 @@
             android:id="@+id/action_currentForecastFragment_to_forecastDetailsFragment2"
             app:destination="@id/forecastDetailsFragment2" />
     </fragment>
+
     <fragment
         android:id="@+id/forecastDetailsFragment2"
         android:name="com.assignment1.helloworld.details.ForecastDetailsFragment"
@@ -32,6 +33,13 @@
         <argument
             android:name="description"
             app:argType="string" />
+        <argument
+            android:name="date"
+            app:argType="long" />
+        <argument
+            android:name="icon"
+            app:argType="string" />
+
     </fragment>
     <fragment
         android:id="@+id/weeklyForecastFragment"
